@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info</title>
+    <link rel="stylesheet" href="sinu.css">
+</head>
+<body>
+   
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-globe"></i> Country Info & Weather
+            </a>
+        </div>
+    </nav>
+    
+    <section class="main-content">
+        <div class="container">
+            <div class="search-box">
+                <h2>Search for Country Information</h2>
+                <div class="input-group">
+                    <input type="text" id="countryInput" placeholder="Enter country name...">
+                    <button onclick="connect()" class="btn">Search</button>
+                </div>
+            </div>
+
+            <div class="results" id="countryResults">
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white text-center py-4 mt-5">
+        <p>&copy; 2024 Country Info & Weather. All rights reserved.</p>
+       
+    </footer>
+    <script src="sinu.js"></script>
+</body>
+</html>
+
